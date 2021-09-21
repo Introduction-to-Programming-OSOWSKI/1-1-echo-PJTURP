@@ -1,5 +1,5 @@
 #def echo function
-def echo():
-    return "yo, 2"
+def echo(a, b):
+    return "yo" * 2
 
-print(echo())
+print(echo("yo", 2))
